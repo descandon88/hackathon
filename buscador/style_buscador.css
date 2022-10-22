@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color-primary: #bba7e8;
+    --color-texto: #1d1d1d;
+    --color-secBlue: #262b52;
+    --color-green: #B8F49D;
+}
+
+/* Rectangle 254 */
+.mainContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5rem;
+}
+
+.mainContent h1 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoContainer {
+    margin: 8rem;
+    text-align: center;
+}
+
+.senpaiText {
+    margin-top: 2rem;
+    font-size: 400;
+    color: #262b52;
+}
+
+a button {
+    background-color: var(--color-green);
+    border-radius: 48px;
+    border: none;
+    width: 410px;
+    height: 48px;
+    color: var(--color-secBlue);
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5rem;
+}
+
+.moreInfo h2 {
+    margin-top: 2rem;
+    font-size: 16px;
+    font-weight: 400;
+    color: #262b52;
+}
+
+.moreInfo span {
+    font-weight: 700;
+    color: #262b52;
+}

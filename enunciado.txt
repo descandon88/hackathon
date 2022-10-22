@@ -1,0 +1,11 @@
+Lista de desafíos:
+Recrear las tres páginas del figma (cada una en un HTML separado)
+Crear listado de candidatos mostrando información de cada candidato
+Agregar filtros de habilidad y nombre al listado de candidatos (JavaScript)
+Agregar funcionalidad de ordenado de candidatos
+Crear formulario de añadido de candidatos con JavaScript (en memoria)
+Agregar una animación/transición a la tarjeta de cada candidato al pasar el cursor sobre ellas (CSS)
+Agregar funcionalidad para crear nuevos candidatos (mediante un formulario)
+Extras:
+Agregar funcionalidad para borrar candidatos
+Agregar funcionalidad para editar candidatos

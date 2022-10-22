@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>listado de Egresados</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>Egresados</header>
+    <main>
+      <div class="container">
+        <aside class="asidefiltro">
+ 
+          <div id="carrerasContainer">
+            <h2> Carreras </h2>
+            <button class="btn active" onclick="filterSelection('all')"> Todas las caterogías</button>
+            <button class="btn" onclick="filterSelection('desarrollo')">Desarrollo</button>
+            <button class="btn" onclick="filterSelection('fotografía')">Fotografía</button>
+            <button class="btn" onclick="filterSelection('diseño')">Diseño</button>
+            <button class="btn" onclick="filterSelection('periodismo')">Periodismo</button>
+          </div>
+          <div id="socialLinksContainer">
+            <h2>Filtros</h2>
+            <form action="">
+            <input class="check" type="checkbox" onclick="filterSelection('linkedin')">Linkedin</br>
+            <input class="check" type="checkbox" onclick="filterSelection('facebook')">Facebook</br>
+            <input class="check"type="checkbox"  onclick="filterSelection('twitter')">Twitter</br>
+          </form>
+          </div>
+        </aside>
+        <div class="cardsContainer">
+          <div class="inner-cardsContainer">
+            <ul class="cards-col1">
+              <!-- <ul class="listaCol1"> -->
+              <li class="cards">
+                <div class="contenido">
+                  <section class="card-left-side">
+                    <img
+                      src="https://www.timeshighereducation.com/sites/default/files/styles/article785xauto/public/pa-consulting-modern-student-istock-1152767923_0.jpg?itok=G6Ny_tin"
+                      alt=""
+                    />
+                  </section>
+                  <section class="card-right-side">
+                    <div class="card-right-side-top">
+                      <h3 class="titulo">Nombre Apellido</h3>
+                      <p class="carrera">Carrera</p>
+                    </div>
+                    <div class="card-right-side-down">
+                      <p class="paisEgresoFecha">País, Egreso, Fecha</p>
+                      <div class="social-links" href="#">
+                        <ul>
+                          <li><a class="facebook" href="#">Facebook</a></li>
+                          <li><a class="twitter" href="#">Twitter</a></li>
+                          <!-- <li><a class="instagram" href="#">Instagram</a></li> -->
+                          <li><a class="linkedin" href="#">Linkedin</a></li>
+                          <li><a class="youtube" href="#">Youtube</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+              <li class="cards">
+                <div class="contenido">
+                  <section class="card-left-side">
+                    <img
+                      src="https://www.timeshighereducation.com/sites/default/files/styles/article785xauto/public/pa-consulting-modern-student-istock-1152767923_0.jpg?itok=G6Ny_tin"
+                      alt=""
+                    />
+                  </section>
+                  <section class="card-right-side">
+                    <div class="card-right-side-top">
+                      <h3 class="titulo">Nombre Apellido</h3>
+                      <p class="carrera">Carrera</p>
+                    </div>
+                    <div class="card-right-side-down">
+                      <p class="paisEgresoFecha">País, Egreso, Fecha</p>
+                      <div class="social-links" href="#">
+                        <ul>
+                          <li><a class="facebook" href="#">Facebook</a></li>
+                          <li><a class="twitter" href="#">Twitter</a></li>
+                          <!-- <li><a class="instagram" href="#">Instagram</a></li> -->
+                          <li><a class="linkedin" href="#">Linkedin</a></li>
+                          <li><a class="youtube" href="#">Youtube</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+              <li class="cards">
+                <div class="contenido">
+                  <section class="card-left-side">
+                    <img
+                      src="https://www.timeshighereducation.com/sites/default/files/styles/article785xauto/public/pa-consulting-modern-student-istock-1152767923_0.jpg?itok=G6Ny_tin"
+                      alt=""
+                    />
+                  </section>
+                  <section class="card-right-side">
+                    <div class="card-right-side-top">
+                      <h3 class="titulo">Nombre Apellido</h3>
+                      <p class="carrera">Carrera</p>
+                    </div>
+                    <div class="card-right-side-down">
+                      <p class="paisEgresoFecha">País, Egreso, Fecha</p>
+                      <div class="social-links" href="#">
+                        <ul>
+                          <li><a class="facebook" href="#">Facebook</a></li>
+                          <li><a class="twitter" href="#">Twitter</a></li>
+                          <!-- <li><a class="instagram" href="#">Instagram</a></li> -->
+                          <li><a class="linkedin" href="#">Linkedin</a></li>
+                          <li><a class="youtube" href="#">Youtube</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+              <li class="cards"></li>
+              <!-- </ul> -->
+            </ul>
+            <ul class="cards-col2">
+              <!-- <ul class="listaCol2"> -->
+                <li class="cards">
+                  <div class="contenido">
+                  <section class="card-left-side">
+                    <img
+                      src="https://www.timeshighereducation.com/sites/default/files/styles/article785xauto/public/pa-consulting-modern-student-istock-1152767923_0.jpg?itok=G6Ny_tin"
+                      alt=""
+                    />
+                  </section>
+                  <section class="card-right-side">
+                    <div class="card-right-side-top">
+                      <h3 class="titulo">Nombre Apellido</h3>
+                      <p class="carrera">Carrera</p>
+                    </div>
+                    <div class="card-right-side-down">
+                      <p class="paisEgresoFecha">País, Egreso, Fecha</p>
+                      <div class="social-links" href="#">
+                        <ul>
+                          <li><a class="facebook" href="#">Facebook</a></li>
+                          <li><a class="twitter" href="#">Twitter</a></li>
+                          <!-- <li><a class="instagram" href="#">Instagram</a></li> -->
+                          <li><a class="linkedin" href="#">Linkedin</a></li>
+                          <li><a class="youtube" href="#">Youtube</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+                <li class="cards">
+                  <div class="contenido">
+                    <section class="card-left-side">
+                      <img
+                        src="https://www.timeshighereducation.com/sites/default/files/styles/article785xauto/public/pa-consulting-modern-student-istock-1152767923_0.jpg?itok=G6Ny_tin"
+                        alt=""
+                      />
+                    </section>
+                    <section class="card-right-side">
+                      <div class="card-right-side-top">
+                        <h3 class="titulo">Nombre Apellido</h3>
+                        <p class="carrera">Carrera</p>
+                      </div>
+                      <div class="card-right-side-down">
+                        <p class="paisEgresoFecha">País, Egreso, Fecha</p>
+                        <div class="social-links" href="#">
+                          <ul>
+                            <li><a class="facebook" href="#">Facebook</a></li>
+                            <li><a class="twitter" href="#">Twitter</a></li>
+                            <!-- <li><a class="instagram" href="#">Instagram</a></li> -->
+                            <li><a class="linkedin" href="#">Linkedin</a></li>
+                            <li><a class="youtube" href="#">Youtube</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="cards">
+                  <div class="contenido">
+                    <section class="card-left-side">
+                      <img
+                        src="https://www.timeshighereducation.com/sites/default/files/styles/article785xauto/public/pa-consulting-modern-student-istock-1152767923_0.jpg?itok=G6Ny_tin"
+                        alt=""
+                      />
+                    </section>
+                    <section class="card-right-side">
+                      <div class="card-right-side-top">
+                        <h3 class="titulo">Nombre Apellido</h3>
+                        <p class="carrera">Carrera</p>
+                      </div>
+                      <div class="card-right-side-down">
+                        <p class="paisEgresoFecha">País, Egreso, Fecha</p>
+                        <div class="social-links" href="#">
+                          <ul>
+                            <li><a class="facebook" href="#">Facebook</a></li>
+                            <li><a class="twitter" href="#">Twitter</a></li>
+                            <!-- <li><a class="instagram" href="#">Instagram</a></li> -->
+                            <li><a class="linkedin" href="#">Linkedin</a></li>
+                            <li><a class="youtube" href="#">Youtube</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="cards"></li>
+              <!-- </ul> -->
+            </div>
+          </div>
+          <div class="pagesContainer">
+            
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="api.js"></script>
+ 
+
+  </body>
+</html>

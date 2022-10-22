@@ -1,0 +1,188 @@
+body {
+    display:flex;
+    flex-direction:column;
+}
+header {
+    width:100%;
+    height: 80px;
+    background-color:#BBA7E8;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    width:35%;
+    border: 5px solid red;
+    height: 85vh;
+}
+
+.cardsContainer {
+    width:60%;
+    border: 5px solid #00000000;
+    height: 85vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.inner-cardsContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    height: 100%;
+    position:relative;
+  
+}
+
+/* diseño de la cards */
+.cards-col2, .cards-col1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content:center;
+    align-items: center;
+}
+.listaCol1, .listaCol2 {
+    width:80%;
+}
+.cards {
+    /* border: 5px solid black; */
+    width:85%;
+    height: 25%;
+    margin:5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+
+/***************/
+/*****CARD******/
+/***************/
+.cards-tmp { 
+    width:416px;
+    height:152px;
+}
+.contenido {
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    height:100%;
+    /* border: 3px solid black; */
+    align-items:center;
+    opacity: 0.8;
+    border-radius: 8px;
+}
+section.card-left-side>img { 
+  
+    border-radius:50%;
+    width:70%;
+    height: 75%;
+    margin:24px;
+    
+}
+.card-left-side {
+    width:40%;
+}
+.card-right-side {
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    height:60%;
+    justify-content: space-between;
+    
+}
+.card-right-side-down {
+    height: 40%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+div.card-right-side-top > h3 {
+    margin:0;
+    max-width:240px;
+    color: #1D1D1D;
+}
+.carrera {
+    color:  #BBA7E8;
+    max-width:240px;
+    max-height:16px;
+    font-style: roboto;
+    font-weight:400px;
+}
+.paisEgresoFecha {
+    color: #777777;
+
+}
+.social-links {
+    /* border-bottom: 1px solid #d5d3e2; */
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+
+ div.social-links> ul {
+    display: flex;
+    padding: 0; 
+    width: 35%;
+    margin:2px;
+    justify-content: space-between;
+  }
+
+  .facebook {
+    background-position: -70px 0;
+    background-image: url( https://www.dropbox.com/s/cr6je8g0nist4sa/ic_social-sprite.svg?raw=1);
+      background-repeat: no-repeat;
+      display: block;
+      height: 16px;
+      text-indent: -9999px;
+      width: 20px;
+  }
+
+  .twitter {
+    background-position: 0 0;
+    background-image: url( https://www.dropbox.com/s/cr6je8g0nist4sa/ic_social-sprite.svg?raw=1);
+      background-repeat: no-repeat;
+      display: block;
+      height: 16px;
+      text-indent: -9999px;
+      width: 20px;
+  }
+
+  .linkedin  {
+    background-position: -342px 0;
+    background-image: url( https://www.dropbox.com/s/cr6je8g0nist4sa/ic_social-sprite.svg?raw=1);
+      background-repeat: no-repeat;
+      display: block;
+      height: 16px;
+      text-indent: -9999px;
+      width: 20px;
+  }
+  
+  .youtube {
+    background-position: -408px 0;
+    background-image: url( https://www.dropbox.com/s/cr6je8g0nist4sa/ic_social-sprite.svg?raw=1);
+      background-repeat: no-repeat;
+      display: block;
+      height: 16px;
+      text-indent: -9999px; 
+      width: 20px;
+  }
+
+
+  /******Filtros******/
+
+  #carrerasContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #socialLinksContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .check {
+    width:20%;
+  }
+        
