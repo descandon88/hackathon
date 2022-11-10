@@ -9,3 +9,9 @@ Agregar funcionalidad para crear nuevos candidatos (mediante un formulario)
 Extras:
 Agregar funcionalidad para borrar candidatos
 Agregar funcionalidad para editar candidatos
+
+https://www.figma.com/file/npu9GrP1QeGUIHdYO3ZzQj/Senpai-Sitio-Responsive-Egresados?node-id=28%3A10
+
+array con objectos
+for each 
+Sobre eso filtros
