@@ -14,12 +14,12 @@ function Father() {
   };
 
   const BuscarEstudiante = () => {
-    const arrayfilter = Data.filter((array) => {
-      if (inletValue.includes(array.nombre)) {
-        // console.log("encontró estudiante: ");
-        return array.nombre;
-      }
+    const datafiltered = Data.filter((array) => {
+      if (array.nombre.toLowerCase().includes(e.target.value.toLowerCase())) {
+        return true;
+      } else return false;
     });
+    console.log("encontró estudiante", datafiltered);
   };
   return (
     <div>
@@ -27,6 +27,7 @@ function Father() {
         HandleChange={handleChange}
         BuscadorChange={BuscarEstudiante}
         value={buscar}
+        inletName={inletValue}
       />
       <CardsDisplay data={Data} />
     </div>
